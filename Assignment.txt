@@ -1,0 +1,93 @@
+Technical Questions
+1.CI/CD Pipelines:
+Describe the process of setting up a CI/CD pipeline using Jenkins.
+1. Git Checkout
+2. Compile
+3. Test
+4. Trivy Scan File System
+5. SonarQube Analysis
+6. Build
+7. Deploy Artifacts To Nexus
+8. Build & Tag Docker Image
+9. Trivy Scan Image
+10. Publish Docker Image
+11. Deploy To Kubernetes (K8s)
+12. Verify Deployment
+
+What are some common challenges you might face while setting up a CI/CD pipeline and how do you address them?
+Challenge: Integrating different tools for version control, build, test, and deployment can be complex.
+Solution: Choose a CI/CD tool that supports integration with a wide range of tools (e.g., Jenkins, GitHub Actions, Azure DevOps). Leverage plugins and extensions for seamless integration.
+
+Challenge: Managing dependencies and ensuring they are resolved correctly across builds.
+Solution: Use dependency management tools (e.g., pip for Python, npm for JavaScript). Implement lock files (e.g., requirements.txt, package-lock.json) to maintain version consistency.
+
+2.Docker:
+
+Explain the process of creating a Docker image for a Python application.
+
+How would you handle environment variables in Docker?
+
+Kubernetes:
+
+How do you deploy a multi-container application using Kubernetes?
+What are some best practices for managing Kubernetes clusters?
+Cloud Services:
+
+How do you manage infrastructure using AWS CloudFormation or Terraform?
+Describe your experience with any other cloud services like Azure or Google Cloud.
+Monitoring and Logging:
+
+How do you set up monitoring for your applications using Prometheus and Grafana?
+What tools and strategies do you use for logging in a microservices architecture?
+Scripting and Automation:
+
+Write a Python script to automate the deployment of an application to a Kubernetes cluster.
+How do you use Ansible for configuration management and what are some common modules you use?
+Version Control:
+
+How do you manage branching and merging strategies in Git?
+Explain a situation where you had to resolve a complex merge conflict.
+Behavioral Questions
+Problem Solving:
+
+Describe a time when you faced a significant challenge in your work. How did you overcome it?
+Give an example of a situation where you had to troubleshoot a production issue. What steps did you take?
+Team Collaboration:
+
+How do you handle conflicts within a team?
+Describe a project where you had to work closely with developers and operations teams. How did you ensure smooth collaboration?
+Adaptability:
+
+Describe a situation where you had to quickly learn a new tool or technology to complete a project.
+How do you stay updated with the latest trends and technologies in DevOps?
+Time Management:
+
+How do you prioritize tasks when working on multiple projects?
+Describe a time when you had to meet a tight deadline. How did you manage your time effectively?
+Leadership and Initiative:
+
+Give an example of a time when you took the initiative to improve a process or tool in your team.
+How do you mentor junior team members or colleagues who are new to DevOps?
+Scenario-Based Questions
+Deployment Failure:
+
+You’ve just deployed a new version of an application, and it's causing issues in production. How would you handle the situation?
+Security Incident:
+
+You discover a security vulnerability in one of your applications. What steps would you take to address it?
+Resource Optimization:
+
+Your current infrastructure is running inefficiently and incurring high costs. What steps would you take to optimize resources?
+Service Outage:
+
+A critical service goes down outside of normal working hours. How do you handle the situation?
+Hands-On Coding Questions
+Python Scripting:
+
+Write a Python script that monitors the CPU and memory usage of a system and logs the information to a file.
+Create a Python microservice that exposes an API endpoint to check the health status of a service.
+Infrastructure as Code:
+
+Write a simple Terraform configuration to provision an EC2 instance in AWS.
+Write an Ansible playbook to install and configure Nginx on a Linux server.
+.
